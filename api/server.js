@@ -15,3 +15,4 @@ server.use('*', (req, res) => {
         message:'not found'
     })
 })
+module.exports = server
